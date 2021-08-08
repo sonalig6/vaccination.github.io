@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vaccination</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="stylesheet" href="css/style.css">
+<style>
+   body{
+    font-family: 'Baloo Bhaina 2', cursive;
+       
+       background:url('https://images.pexels.com/photos/5863274/pexels-photo-5863274.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+      
+       background-repeat: no-repeat;
+       
+   }
+.left{
+    color: darkred;
+        display:inline-block;
+position:absolute;
+top: 18px;
+left: 18px;
+
+        
+/*border: 2px solid blue;*/
+
+   }
+   .left img{
+       width:90px;
+       height: 90px;;
+   }
+   .left div{
+      
+       text-align: center;
+   }
+    .mid{
+color:black ;    
+display: block;
+width:70%;
+margin: 18px auto;
+       
+
+
+/*border: 3px solid rgb(47, 0, 255);*/
+   }
+   
+.right{
+    color:black;
+        position: absolute;
+        display: inline-block;
+        top:50px;
+        right: 55px;
+/*border: 2px solid yellowgreen*/
+   }
+   .navbar{
+       display: inline-block;
+       font-size: 25px;
+   }
+   .navbar li{
+       color:blue;
+       display: inline-block;
+   }
+   .navbar li a{
+       color:blue;
+       text-decoration: none;
+       padding:34px 44px;
+   }
+   .navbar li a:hover,   .navbar li a:active
+   {text-decoration: underline;
+color:black;}
+
+ .btn
+ {
+    font-family: 'Baloo Bhaina 2', cursive;
+    margin: 0px 15px;
+    color:blue;
+    background-color:rgb(27, 20, 66);
+    padding: 3px 14px;
+    border:2px blue;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(2, 2, 41);
+
+    
+}
+.container{
+    border: brown;
+    margin:10px 20px;
+    width:120px;
+    padding:73px;
+    border-radius: 28px;
+
+}
+.form-group input{
+    font-family: 'Baloo Bhaina 2', cursive;
+    text-align: center;
+    display: block;
+    padding:6px;
+    margin: 11px auto;
+    border:4px violet;
+    font-size: 22px;
+    border-radius: 8px;
+
+
+}
+.container h1{
+    text-align: center;
+
+}
+.container button{
+    display: block;
+    margin: auto;
+    width: 66%;
+
+}
+</style>
+<body>
+    <header class="header">
+        <!--left box for logo-->
+        <div class="left">
+    <img src="https://images.pexels.com/photos/4167544/pexels-photo-4167544.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+    <div>vaccination</div>
+
+        </div>
+        <!--mid box for navbar-->
+        <div class="mid">
+            <ul class="navbar">
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="#">login</a></li>
+    <li><a href="#">book your slot</a></li>
+    <li><a href="#">details</a></li>
+
+    
+    
+    
+    
+</ul>
+
+        </div>
+        <!--right box for buttons-->
+        <div class="right">
+
+        <button class="btn">download</button><button class="btn">contact us</button>
+    
+</div>
+<div class="container">
+    
+    <h1>register yourself</h1>
+    <form action="noaction.php">
+        
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter your name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="age ">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="city">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="any document">
+        </div>
+    </form>
+</div>
+<button class="btn">submit</button>
+</body>
+</html>
